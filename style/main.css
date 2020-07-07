@@ -1,0 +1,67 @@
+:root {
+    --theme-color: #05aefc; /*#05264c*/
+    --theme-color-darker: #007fba; /*#011b3a*/
+    --border-color: #0c0c0c; /*#041c38*/
+    --github-color: #3c227c;
+    --instagram-color: #823665;
+    --facebook-color: #1e458c;
+    --twitter-color: #0584fc;
+    --transition-effect: .2s;
+}
+
+* { box-sizing: border-box }
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: #0D262D;
+}
+
+.pannel {
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    background: var(--theme-color);
+    box-sizing: border-box;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, .3);
+}
+
+.title {
+    display: inline-block;
+    font-family: Arial, Arial, sans-serif;
+    font-weight: 200;
+    font-size: larger;
+    padding: 10px;
+    height: 100%;
+    color: #fff;
+    background: var(--theme-color-darker);
+    text-align: center;
+    text-decoration: none;
+}
+
+.l-header { 
+    position: fixed;
+    top: 40px;
+    height: 100%;
+    padding: 0;
+}
+
+.l-header__container {
+    display: inline-block;
+    margin: 30px;
+    height: 90%;
+    width: 17em;
+}
+
+#triangle-bottomleft {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-bottom: 40px solid var(--theme-color-darker);
+    border-right: 15px solid transparent;
+    vertical-align: top;
+}
+

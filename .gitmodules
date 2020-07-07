@@ -1,0 +1,3 @@
+[submodule "misc/flappybird"]
+	path = misc/flappybird
+	url = https://github.com/Kevinwkz/flappybird.git
